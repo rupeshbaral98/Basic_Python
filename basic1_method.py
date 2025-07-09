@@ -1,12 +1,15 @@
 def firstMethod(a):
-    
-    if(isinstance(a, int)): #to compare type with variable
+    if(isinstance(a, int) and a > 5): #to compare type with variable
         a = str(a)
     print(a+" Baral")
 
 firstMethod("Rupesh")
 firstMethod("Subhasmita")
 firstMethod(10)
+
+def add(a,b):
+    return(a+b) #return statement
+print(add(int(input("num1 ")),float(input("num2 ")))) #user input & convert to int,float
 
 a=[10,20,30,40]
 b=["ll","kk"]
